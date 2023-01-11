@@ -1,0 +1,88 @@
+/* .change img{
+   border: 2px solid;
+   height: 300px;
+} */
+
+.history{
+    border: 3px solid;
+    height: 200px;
+    width: 300px;
+    padding: 30px;
+    text-align: justify;
+    overflow: scroll;
+    overflow-x: hidden ;
+}
+
+.short{
+     border: solid 3px lightcoral;
+     width: 358px;
+     
+}
+/* 
+.change{
+    display: flex;
+    justify-content: space-between;
+    
+} */
+
+.container, .inner{
+             width: 200px;
+             height: 200px;
+             border: 3px solid lightsalmon;
+}
+
+.mil2{
+    display: grid;
+
+}
+
+.container{
+
+         background-color: cornflowerblue;
+
+}
+
+.inner{
+      font-size: 30px;
+      text-align: center;
+      background-color: hotpink;
+      transform: rotate(45deg) scale(0.66);
+}
+
+.malta{
+    width: 200px;
+    height: 100px;
+    background-color: lightseagreen;
+    text-align: center;
+   
+    transition: width 1s, height 1s,  transform 1s;
+    
+    
+}
+
+
+.malta:hover{
+    width: 400px;
+    height: 200px;
+    transform: rotate(360deg);
+}
+
+
+.stadium{
+    border: 10px solid green;
+   border-radius: 50%;
+    width: 98%;
+    height: 800px;
+}
+
+
+
+.bat{
+padding-left: 32%;
+padding-top: 35%;
+}
+
+ .stadium:hover .bat{
+    transform: rotate(-60deg);
+    transform-origin: top, right;
+}
